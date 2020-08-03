@@ -82,11 +82,10 @@ h4 {
 .navigation {
   display: flex;
   align-items: center;
-  justify-content: baseline;
 }
 .logo {
   font-family: var(--secondary-font);
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 1.16;
@@ -99,7 +98,7 @@ h4 {
 }
 .body {
   font-family: var(--main-font), sans-serif;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
@@ -113,7 +112,7 @@ h4 {
   display: flex;
 }
 .site-nav-list {
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -192,15 +191,16 @@ h4 {
 .address-nav-mailto-svg {
   margin-right: 10px;
 }
+.current {
+  color: var(--accent-color);
+}
 .address-nav-list-link {
-  font-style: 400;
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--text-color);
-  /*padding-bottom: 32px; /*dobavila */
-  /* padding-top: 28px; /*dobavila */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .address-nav-list-link link.title {
@@ -255,7 +255,7 @@ h4 {
 
 .hero-title {
   font-family: var(--main-font);
-  font-style: 400;
+  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -280,7 +280,7 @@ h4 {
 }
 .title {
   font-family: var(--main-font);
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
@@ -326,7 +326,7 @@ h4 {
   margin-top: auto;
 }
 .aboutus-title {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -335,7 +335,7 @@ h4 {
   color: var(--primary-text-color);
 }
 .aboutus-text {
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.7;
@@ -373,17 +373,6 @@ h4 {
   padding-bottom: 27px;
   margin: 0;
 }
-h3.whatwedo-list-link {
-  margin: 0;
-  color: var(--primary-white-color);
-}
-.whatwedo-list-link {
-  margin: 0;
-}
-
-.whatwedo-list-link:link {
-  color: var(--primary-white-color);
-}
 .whatwedo-list {
   list-style: none;
   text-align: center;
@@ -392,7 +381,7 @@ h3.whatwedo-list-link {
   margin-right: 30px;
 }
 .whatwedo-list-title {
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -411,7 +400,7 @@ h3.whatwedo-list-link {
 }
 .team-title {
   font-family: Roboto;
-  font-style: 400;
+  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 42px;
@@ -440,7 +429,7 @@ h3.whatwedo-list-link {
 }
 
 .team-list-desc {
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -581,7 +570,7 @@ h3.whatwedo-list-link {
 .filter {
   font-size: var(--main-font);
   text-decoration: none;
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -664,10 +653,10 @@ h3.whatwedo-list-link {
 .filter-project-list-text {
   text-decoration: none;
   font-family: var(--main-font);
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 9;
+  line-height: 1.9;
   color: var(--text-color);
   margin: 0;
 }
@@ -684,7 +673,7 @@ h3.whatwedo-list-link {
 .filter-project-list-tehnokryak {
   background-color: var(--accent-color);
   font-family: var(--main-font);
-  font-style: 400;
+  font-style: normal;
   font-weight: 400;
   font-size: 18px;
   line-height: 1, 6;
