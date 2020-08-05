@@ -347,9 +347,7 @@ h4 {
   display: flex;
   justify-content: center;
 }
-.whatwedo-list-item {
-  width: 370px;
-}
+
 .whatwedo-section {
   margin-bottom: 94px;
   padding-top: 47px;
@@ -357,6 +355,7 @@ h4 {
 }
 .whatwedo-list-item {
   position: relative;
+  width: 370px;
 }
 .whatwedo-list-title {
   position: absolute;
@@ -368,7 +367,6 @@ h4 {
     rgba(47, 48, 58, 0.8)
   );
   width: 370px;
-  height: 70px;
   padding-top: 27px;
   padding-bottom: 27px;
   margin: 0;
@@ -506,6 +504,9 @@ h4 {
   justify-content: center;
   align-items: center;
   border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+
   width: 170px;
   height: 90px;
   transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
@@ -591,7 +592,7 @@ h4 {
   line-height: 1.62;
   text-align: center;
   color: var(--primary-text-color);
-  padding: 6px, 22px;
+  padding: 6px 22px;
   border: none;
   justify-content: center;
   border-radius: 4px;
@@ -676,7 +677,7 @@ h4 {
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 1, 6;
+  line-height: 1.6;
   color: var(--primary-white-color);
   text-align: left;
   padding-top: 63px;
@@ -837,8 +838,9 @@ h4 {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   border-radius: 50%;
   align-items: center;
-  display: flex; /*? delat ili net*/
+  display: flex;
   justify-content: center;
+  background: rgba(255, 255, 255, 0.1);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .social-links:focus {
